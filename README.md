@@ -1,6 +1,8 @@
-#Mobile Application Development Lab Exercises
+# **Mobile Application Development Lab Exercises**
 
-Welcome to the Mobile Application Development Lab Exercises repository! This repository contains solutions to lab exercises for mobile app development course.
+Welcome to the Mobile Application Development Lab Exercises repository! This repository contains solutions to lab exercises for the mobile app development course.
 
-#Contents
-    Solutions: Solutions for completed exercises.
+## **Contents**
+
+1. **Solutions**: Solutions for completed exercises.
+
