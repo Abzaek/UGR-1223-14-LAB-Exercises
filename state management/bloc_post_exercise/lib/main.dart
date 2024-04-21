@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Post Viewer',
+      title: 'POST EXERCISE',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -84,7 +84,10 @@ class PostListScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Post Viewer'),
+        title: const Text(
+          'Posts',
+        ),
+        centerTitle: true,
       ),
       body: BlocBuilder<PostBloc, List<Post>>(
         builder: (context, posts) {

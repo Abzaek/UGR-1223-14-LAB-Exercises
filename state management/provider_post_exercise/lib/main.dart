@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (_) => PostProvider(),
       child: MaterialApp(
-        title: 'Flutter Demo',
+        title: 'POST EXERCISE',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
@@ -101,6 +101,7 @@ class _PostListScreenState extends State<PostListScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Posts'),
+        centerTitle: true,
       ),
       body: posts.isEmpty
           ? const Center(

@@ -77,11 +77,11 @@ class Counter extends ChangeNotifier {
 
   void increment() {
     _count++;
-    notifyListeners(); // Notify listeners about the change
+    notifyListeners();
   }
 
   void decrement() {
     _count--;
-    notifyListeners(); // Notify listeners about the change
+    notifyListeners();
   }
 }
