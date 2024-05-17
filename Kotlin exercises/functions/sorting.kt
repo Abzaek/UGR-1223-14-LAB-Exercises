@@ -1,5 +1,5 @@
 fun main() {
-    val array = intArrayOf(5, 3, 8, 4, 2)
+    val array = intArrayOf(5, -3, -8, 4, 2)
     mergeSort(array)
     println("Sorted Array: ${array.joinToString(", ")}")
 }
@@ -43,22 +43,3 @@ fun merge(arr: IntArray, leftArray: IntArray, rightArray: IntArray) {
 
 
 
-
-fun factorial(n: Int): Long {
-    return if (n == 0) {
-        1
-    } else {
-        n * factorial(n - 1)
-    }
-}
-
-
-fun hasUniqueCharacters(s: String): Boolean {
-    val charSet = mutableSetOf<Char>()
-    for (char in s) {
-        if (!charSet.add(char)) {
-            return false
-        }
-    }
-    return true
-}
